@@ -1,6 +1,7 @@
 cf:
   butlers:
-    mvp: cf-butler-timely-cheetah.apps.pcfone.io
+    pws: cf-butler-quick-sitatunga.cfapps.io
+    homelab: cf-butler.dashaun.cloud
   sslValidationSkipped: true
 
 management:
