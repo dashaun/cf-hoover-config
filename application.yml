@@ -1,6 +1,6 @@
 cf:
   butlers:
-    pws: cf-butler-quick-sitatunga.cfapps.io
+    pws: cf-butler-talkative-chimpanzee.cfapps.io
   sslValidationSkipped: true
 
 management:
