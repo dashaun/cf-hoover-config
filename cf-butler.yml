@@ -1,5 +1,28 @@
+cf:
+  apiHost: api.run.pivotal.io
+  refreshToken:
+  username:
+  password:
+  organizationBlackList:
+    - system
+  accountRegex: ^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$
+  policies:
+    provider: git
+    uri: https://github.com/dashaun/cf-hoover-config.git
+    commit:
+    filePaths:
+cron:
+  collection: 0 * * * * *
+  execution: 0 */5 * * * *
+exposed:
+  actuator:
+    endpoints: beans,env,info,health,metrics,scheduledtasks,loggers,mappings,prometheus
+pivnet:
+  apiToken:
 spring:
   security:
     user:
-      name: test
-      password: test
+      name:
+      password:
+token:
+  provider: userpass
