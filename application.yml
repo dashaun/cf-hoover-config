@@ -1,6 +1,6 @@
 cf:
   butlers:
-    pws: cf-butler-talkative-chimpanzee.cfapps.io
+    pws: cf-butler-bright-wildebeest.cfapps.io
   sslValidationSkipped: true
 
 management:
